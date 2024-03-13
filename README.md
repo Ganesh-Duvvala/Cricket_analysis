@@ -1,25 +1,41 @@
 Web scraping is the process of automatically extracting data from websites. It involves fetching the web page, parsing its HTML or XML content, and then extracting the desired information. Here's a basic project description for a web scraping project
+
 Project Title: Web Scraping for Cricket Analysis Data set
  
 Project Description:
 The goal of this project is to develop a web scraping tool to gather specific data from websites related to Analysis. The tool will extract information such as each match details from multiple web pages and store it in a Data Frame
+
 •	Programming Language: Python (or language of your choice)
+
 •	Libraries: BeautifulSoup, Scrapy (for Python), Pandas (data cleaning and export to excel)
+
 •	Web Requests: Requests library (Python) for fetching web pages.
+
 Exploratory Data analysis (EDA):
+
 After scraping data from websites, it's crucial to perform data cleaning to ensure that the extracted data is accurate, consistent, and ready for analysis. Here's a general outline of the data cleaning process
+
 •	Removing Duplicates: Check for and remove any duplicate records in the dataset. Duplicates can skew analysis results and waste computational resources.
+
 •	Handling Missing Values: Identify and handle missing values in the dataset. Depending on the situation, you can choose to remove records with missing values, impute them using statistical methods, or fill them with default values.
+
 •	Standardizing Formats: Ensure consistency in data formats across the dataset. For example, dates should be in a uniform format, numerical values should use the same units, and categorical variables should have consistent labelling.
+
 •	Correcting Errors: Identify and correct any errors or inconsistencies in the data. This may involve correcting typos, resolving inconsistencies in naming conventions, or validating data against known standards or reference datasets.
+
 •	Handling Outliers: Detect and handle outliers in the dataset that may skew analysis results. Depending on the context, outliers can be removed, transformed, or treated separately in analysis.
+
 •	Feature Engineering: Create new features or transform existing ones to better represent the underlying patterns in the data. Feature engineering techniques include binning, scaling, and creating interaction terms between variables.
+
 •	Data Validation: Validate the cleaned dataset to ensure that it meets the requirements of downstream analysis tasks. This may involve running consistency checks, verifying relationships between variables, and validating data against external sources or reference datasets.
 
 
 Once you've cleaned the dataset, storing it in Excel format can be a convenient way to share or further analyse the data.
+
 Data visualization using PowerBI
+
 Power BI is a powerful tool for data visualization and analysis, allowing you to create interactive reports and dashboards. Here's a basic overview of how you can visualize your data in Power BI:
+
 1.	Connect to Data Source: Start by connecting Power BI to your data source. Power BI supports a wide range of data sources, including Excel files, databases, cloud services like Azure, and web sources.
 2.	Load Data: Once connected, load your cleaned dataset into Power BI. You can import the data directly into Power BI or establish a live connection to your data source if you want to keep the data updated dynamically.
 3.	Create Visualizations: Power BI offers various visualization options to represent your data effectively. Some common visualization types include
